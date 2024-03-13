@@ -1,0 +1,15 @@
+INFO - 2024-03-10 23:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 23:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 23:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-10 23:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-10 23:41:59 --> Undefined variable $productos
+in APPPATH\Views\usuario\index.php on line 328.
+ 1 APPPATH\Views\usuario\index.php(328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\innovatech2\\app\\Views\\usuario\\index.php', 328)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\innovatech2\\app\\Views\\usuario\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuario/index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('usuario/index')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

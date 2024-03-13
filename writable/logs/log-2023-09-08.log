@@ -1,0 +1,32 @@
+INFO - 2023-09-08 14:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:11:05 --> Invalid file: "hola desde codeigniter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hola desde codeigniter.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hola desde codeigniter', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('hola desde codeigniter')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:15:54 --> Invalid file: "hola desde codeigneiter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hola desde codeigneiter.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hola desde codeigneiter', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('hola desde codeigneiter')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:42:13 --> Call to undefined function App\Controllers\views()
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 15:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

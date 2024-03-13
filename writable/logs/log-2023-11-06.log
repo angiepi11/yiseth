@@ -1,0 +1,5 @@
+INFO - 2023-11-06 06:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:32:32 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\ThirdParty\Kint\Renderer\RichRenderer.php on line 639.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-06 21:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
